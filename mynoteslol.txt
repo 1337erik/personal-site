@@ -1,0 +1,27 @@
+What is the purpose of my website?
+- serve as a portfolio/resume
+- onboarding for clients
+- management portal for clients
+- marketing for more work
+
+
+
+Todo:
+- change social icons/hook them up
+    - remove facebook
+    - remove twitter
+    - hook up instagram
+    - hook up linkedin
+    - add medium
+    - add github
+- host and deploy
+- get contact form working
+
+
+
+Future roll:
+- maybe add wyzant section?
+- onboarding
+    - payment
+- customer portal
+- integrate vue
