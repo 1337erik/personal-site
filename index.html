@@ -276,7 +276,8 @@
 
                                         <div class="col-md-10 col-md-offset-1 col-md-pull-1 animate-box" data-animate-effect="fadeInRight">
 
-                                            <form action="">
+                                            <form netlify name="contact" method="POST" netlify-honeypot="lulz" data-netlify-recaptcha="true">
+                                                <input name="lulz" class="hidden"/></label>
 
                                                 <div class="form-group">
 
@@ -298,6 +299,7 @@
 
                                                     <input type="submit" class="btn btn-primary btn-send-message" value="Send Request">
                                                 </div>
+                                                <div data-netlify-recaptcha="true"></div>
                                             </form>
                                         </div>
                                     </div>

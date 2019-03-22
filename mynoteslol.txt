@@ -7,6 +7,7 @@ What is the purpose of my website?
 
 
 Todo:
+- fix up nav on mobile
 - change social icons/hook them up
     - remove facebook
     - remove twitter
@@ -17,6 +18,17 @@ Todo:
 - host and deploy
 - get contact form working
 
+
+
+Onboarding upgrade thoughts:
+- have a schedule to pick a time to have a skype interview
+^^ this is golden, feature it as the main feature
+..this could turn the contact form into a general 'hey whatsup'
+
+- have file attachment for screenshot
+    - directions for how to take screenshot
+- prompt user to explain the goals of the website or app
+- have success message that explains the next steps and what to expect
 
 
 Future roll:
