@@ -263,7 +263,7 @@ figure {
         position: relative; }
     #colorlib-hero .flexslider .flex-control-nav {
       bottom: 20px;
-      z-index: 1000;
+      /* z-index: 1000; <-- this might be for the paginator on slider, deactivate until needed */
       left: 20px;
       float: left;
       width: auto; }
