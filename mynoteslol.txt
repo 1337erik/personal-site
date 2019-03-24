@@ -7,6 +7,7 @@ What is the purpose of my website?
 
 
 Todo:
+- fix the front-page issue with mobile, navbar and header text not displaying well
 - change social icons/hook them up
     - remove facebook
     - remove twitter
