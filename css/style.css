@@ -1409,7 +1409,7 @@ body.offcanvas {
       opacity: 1;
       visibility: visible; } }
 
-  .responsivbe-top-nav {
+  .responsive-top-nav {
 
     visibility: hidden;
     position: fixed;
@@ -1420,7 +1420,7 @@ body.offcanvas {
     box-shadow: 0px 2px 5px -3px #f3f6f9;
   }
   @media screen and (max-width: 768px) {
-    .colorlib-nav-toggle {
+    .responsive-top-nav {
       visibility: visible;
     }
   }
