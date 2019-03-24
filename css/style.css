@@ -73,6 +73,9 @@ figure {
   position: relative; }
 
 #colorlib-aside {
+  display: flex;
+  flex-direction:column;
+  justify-content: space-between;
   padding-top: 3em;
   padding-bottom: 40px;
   float: left;
@@ -208,6 +211,14 @@ figure {
             text-decoration: none;
             outline: none;
             color: #045ea8; }
+
+  @media screen and (max-height: 675px) {
+
+    #colorlib-aside {
+
+      padding: 25px 0 !important;
+    }
+  }
 
 .container-wrap {
   max-width: 1170px;

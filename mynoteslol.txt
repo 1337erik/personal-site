@@ -7,7 +7,6 @@ What is the purpose of my website?
 
 
 Todo:
-- fix up nav on mobile
 - change social icons/hook them up
     - remove facebook
     - remove twitter
@@ -17,7 +16,7 @@ Todo:
     - add github
 - onboarding upgrade idea ( below )
 - contact form
-    - get email notification to my gmail
+    - custom success page?
 
 
 Onboarding upgrade thoughts:
@@ -33,6 +32,7 @@ Onboarding upgrade thoughts:
 
 Future roll:
 - maybe add wyzant section?
+- mentoring/teaching/consulting
 - onboarding
     - payment
 - customer portal
