@@ -400,8 +400,12 @@ body.offcanvas {
     .colorlib-about,
     .colorlib-services,
     .colorlib-contact {
-      padding-top: 5em;
-      padding-bottom: 8em; } }
+      padding-top: 3em;
+      padding-bottom: 4em; }
+      #colorlib-hero { /* this style is a little out of place.. however whatever */
+        margin-bottom: 0px;
+      }
+    }
 
 .author-img {
   background-size: cover;
@@ -1405,6 +1409,22 @@ body.offcanvas {
       opacity: 1;
       visibility: visible; } }
 
+  .responsivbe-top-nav {
+
+    visibility: hidden;
+    position: fixed;
+    width: 100%;
+    background-color: rgb(255, 255, 255, 0.75);
+    height: 75px;
+    z-index: 50;
+    box-shadow: 0px 2px 5px -3px #f3f6f9;
+  }
+  @media screen and (max-width: 768px) {
+    .colorlib-nav-toggle {
+      visibility: visible;
+    }
+  }
+
 @media screen and (max-width: 480px) {
   .col-xxs-12 {
     float: none;
@@ -1436,3 +1456,28 @@ body.offcanvas {
 
 .js .animate-box {
   opacity: 0; }
+
+
+
+
+
+  /* Extra styling */
+
+  .hero-background {
+
+    background-size: unset !important;
+    background-position-y: 0% !important;
+  }
+
+  .hero-slide-1 {
+
+    background: linear-gradient(
+      rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 1)
+    ), url(../images/used/devices.png);
+  }
+
+  .hero-slide-2 {
+
+    background-image: url(../images/img_bg_2.jpg);
+  }
