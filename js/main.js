@@ -27,13 +27,13 @@
 
     var fullHeight = function() {
 
-        if ( !isMobile.any() ) {
+        // for some reason this was not doing anything for mobile..
+        // if ( isMobile.any() ) {
             $('.js-fullheight').css('height', $(window).height());
             $(window).resize(function(){
                 $('.js-fullheight').css('height', $(window).height());
             });
-        }
-
+        // }
     };
 
 
