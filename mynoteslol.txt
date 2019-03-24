@@ -15,9 +15,9 @@ Todo:
     - hook up linkedin
     - add medium
     - add github
-- host and deploy
-- get contact form working
-
+- onboarding upgrade idea ( below )
+- contact form
+    - get email notification to my gmail
 
 
 Onboarding upgrade thoughts:
