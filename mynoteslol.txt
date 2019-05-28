@@ -1,5 +1,8 @@
 What is the purpose of my website?
 - serve as a portfolio/resume
+
+
+// later this will be..
 - onboarding for clients
 - management portal for clients
 - marketing for more work
@@ -7,7 +10,6 @@ What is the purpose of my website?
 
 
 Todo:
-- fix the front-page issue with mobile, navbar and header text not displaying well
 - change social icons/hook them up
     - remove facebook
     - remove twitter
@@ -18,6 +20,11 @@ Todo:
 - onboarding upgrade idea ( below )
 - contact form
     - custom success page?
+- portfolio section
+    - add anthonys website to portfolio
+    - add roberts website to portfolio ( once it is finished )
+    - add timeboxer ( once it is hosted )
+    - create filter functionality.. possibly it's own page? or maybe a paginator..
 
 
 Onboarding upgrade thoughts:
