@@ -6,25 +6,29 @@ What is the purpose of my website?
 - onboarding for clients
 - management portal for clients
 - marketing for more work
+- onboarding upgrade idea ( below )
 
 
 
 Todo:
-- change social icons/hook them up
-    - remove facebook
-    - remove twitter
-    - hook up instagram
-    - hook up linkedin
-    - add medium
-    - add github
-- onboarding upgrade idea ( below )
+
+I want to feature ThriveMind, & Laravel development
+
+1. Fixup hero image
+    1. Get the gradient looking better on mobile
+2. Fixup the topnav
+    1. Get the gradient looking nice on mobile
+3. Portfolio
+    1. Add Remelo
+    2. Add ConfirmX
+4. Add Section for ThriveMind Society
+5. Add Section for Medium
+
 - contact form
     - custom success page?
 - portfolio section
     - add anthonys website to portfolio
-    - add roberts website to portfolio ( once it is finished )
     - add timeboxer ( once it is hosted )
-    - create filter functionality.. possibly it's own page? or maybe a paginator..
 
 
 Onboarding upgrade thoughts:
