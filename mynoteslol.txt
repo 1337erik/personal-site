@@ -11,24 +11,9 @@ What is the purpose of my website?
 
 
 Todo:
-
-I want to feature ThriveMind, & Laravel development
-
-1. Fixup hero image
-    1. Get the gradient looking better on mobile
-2. Fixup the topnav
-    1. Get the gradient looking nice on mobile
-3. Portfolio
-    1. Add Remelo
-    2. Add ConfirmX
-4. Add Section for ThriveMind Society
-5. Add Section for Medium
-
 - contact form
     - custom success page?
-- portfolio section
-    - add anthonys website to portfolio
-    - add timeboxer ( once it is hosted )
+
 
 
 Onboarding upgrade thoughts:
