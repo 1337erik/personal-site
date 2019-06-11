@@ -729,14 +729,19 @@
 
                                                     <div class="panel-body">
 
-                                                        <div class="row">
+                                                        <div class="row" style="display:flex;align-items:center;">
 
                                                             <div class="col-md-6">
 
                                                                 <p>
-                                                                    A simple game that I created to compelte a code challenge, and figured it would be a good resume piece to include on my website.
-                                                                    I built it out of a Vue component, to hook into a Laravel backend. It features the ability to play PvP or PvC or even CvC. The AI
-                                                                    is easy to beat, you just have to know how to setup a double-move.
+                                                                    A simple game that I created to complete a code challenge. I built it out of a Vue component within a Laravel project,
+                                                                    as per the instructions, and the laravel project features some functionality such as: Start a new game, see past games,
+                                                                    see leaderboard of players, and handle authentication and signup ( using laravels preset auth ). The vue game itself features
+                                                                    some cool functionality such as the ability to play PvP or PvC or even CvC. I programmed the AI myself, named it Zuckerberg,
+                                                                    ( its easy to beat, you just have to know how to setup a double-cross ). The coolest feature is the move-rewind and playback.
+                                                                    So you can 'take-back' a turn, and this same mechanic allows you to 'playback' entire games from the past. The game states are synced
+                                                                    with the MySQL database, and the game->state relationship is hasMany. The player->game relationship is manyToMany to allow for
+                                                                    spectators as well, which wasn't implemented yet.
                                                                 </p>
                                                             </div>
                                                             <div class="col-md-6 text-center">
@@ -774,60 +779,36 @@
                                                         </div>
                                                     </div>
                                                 </div>
+                                            </div>
 
-                                            <!-- <div class="panel panel-default">
+                                            <div class="panel panel-default">
 
                                                 <div class="panel-heading" role="tab" id="headingThree">
 
                                                     <h4 class="panel-title">
-                                                        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">Diploma in Information Technology
+                                                        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                                            Simon Says
                                                         </a>
                                                     </h4>
                                                 </div>
                                                 <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
 
                                                     <div class="panel-body">
+                                                        <div class="row">
 
-                                                        <p>Far far away, behind the word <strong>mountains</strong>, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>	
+                                                            <p>
+                                                                A tutoring assignment I helped finish for student recently. I used CSS grid to display the squares
+                                                                ( purely for educational purposes on what CSS grid is ), and complete vanilla javascript with event listeners
+                                                                and DOM manipulation to control the game mechanics. Also you cant make a move unless its 'your turn'. I blew
+                                                                through a common issue that I also faced with tic-tac-toe where I learned that there is a common complication
+                                                                with using 'setTimeout()' within a forEach loop. If you don't multiply the index of the loop by the timeout length,
+                                                                all of the iterations go at once. So anyways, I wanted to put this up because I commented it out heavily and it
+                                                                is an interesting show of my code style and usage of vanilla javascript, so <a style="font-weight: bold;" href="https://codepen.io/1337erik/pen/qzBPRM" target="_blank">play a few rounds.</a>
+                                                            </p>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
-
-                                            <div class="panel panel-default">
-
-                                                <div class="panel-heading" role="tab" id="headingFour">
-
-                                                    <h4 class="panel-title">
-                                                        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">Diploma in Information Technology
-                                                        </a>
-                                                    </h4>
-                                                </div>
-                                                <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
-
-                                                    <div class="panel-body">
-
-                                                        <p>Far far away, behind the word <strong>mountains</strong>, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>	
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <div class="panel panel-default">
-
-                                                <div class="panel-heading" role="tab" id="headingFive">
-
-                                                    <h4 class="panel-title">
-                                                        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">High School Secondary Education
-                                                        </a>
-                                                    </h4>
-                                                </div>
-                                                <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
-
-                                                    <div class="panel-body">
-
-                                                        <p>Far far away, behind the word <strong>mountains</strong>, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>	
-                                                    </div>
-                                                </div>
-                                            </div> -->
                                         </div>
                                     </div>
                                 </div>
